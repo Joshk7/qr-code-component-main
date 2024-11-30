@@ -51,13 +51,17 @@ article {
 h1 {
     font-size: 22px;
     font-weight: bold;
-    color: var(--slate-900)
+    color: var(--slate-900);
+    line-height: 120%;
 }
 
 p {
+    font-size: 15px;
     font-weight: normal;
     color: var(--slate-500);
     margin-bottom: 22px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
 }
 
 footer {

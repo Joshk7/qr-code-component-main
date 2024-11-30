@@ -1,27 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
 :root {
-    --slate-300: #D5E1EF;
-    --slate-500: #68778D;
-    --slate-900: #1F314F;
+    --slate-300: #d5e1ef;
+    --slate-500: #68778d;
+    --slate-900: #1f314f;
     --outfit: Outfit;
 }
 
 body {
     margin: 0;
     font-family: var(--outfit), sans-serif;
-	box-sizing: border-box;
-	height: 100vh;
-	width: 100%;
-	background-color: var(--slate-300);
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: var(--slate-300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0 2rem;
 }
 
 article {
-    max-width: 320px;
+    max-width: 20rem;
     box-sizing: border-box;
     box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.047);
 }
@@ -37,8 +94,7 @@ article {
 }
 
 .qr-code {
-    width: 288px;
-    height: 288px;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -47,42 +103,42 @@ article {
     text-align: center;
 }
 
-
 h1 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
     color: var(--slate-900);
     line-height: 120%;
+    margin-bottom: 1rem;
 }
 
 p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: normal;
     color: var(--slate-500);
-    margin-bottom: 22px;
+    margin-bottom: 1.375rem;
     line-height: 140%;
     letter-spacing: 0.2px;
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .attribution {
-	font-size: 11px;
-	text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
 
 #qr-code {
-	width: 288px;
-	height: 288px;
-	border-radius: 10px;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
 }

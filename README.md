@@ -80,5 +80,3 @@ The project also needs elements for accessibility to be complete.
 
 -   Website - [Josh Kahlbaugh](https://joshuakahlbaugh.pages.dev/)
 -   Frontend Mentor - [@Joshk7](https://www.frontendmentor.io/profile/Joshk7)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**

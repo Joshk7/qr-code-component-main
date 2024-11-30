@@ -22,7 +22,7 @@ This is my solution to the QR Code Component on FrontEnd Mentor.
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.jpg)
 
 ### Links
 
@@ -45,16 +45,14 @@ I brushed up my css layout styles for the attribution by wrapping it in an html 
 
 ```html
 <footer>
-    <div class="attribution">
-        ...
-    </div>
+    <div class="attribution">...</div>
 </footer>
 ```
 
 ```css
 footer {
     position: fixed;
-    ...
+    ...;
 }
 ```
 
@@ -62,10 +60,10 @@ Additionally, setting the body element to display: flex allowed me to easily cen
 
 ```css
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-    ...
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ...;
 }
 ```
 
